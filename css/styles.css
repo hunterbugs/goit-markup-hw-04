@@ -413,6 +413,13 @@ img {
   border: 1px solid black;
 }
 
+.customer-item-a {
+  display: flex;
+  width: 168px;
+  height: 88px;
+  border: 1px solid black;
+}
+
 .contact-footer {
   color: var(--white);
 }
@@ -433,4 +440,24 @@ img {
 .customer-icon {
   width: 104px;
   height: 56px;
+}
+
+.customer-icon-a {
+  width: 10px;
+  height: 10px;
+}
+.customer-icon-b {
+  width: 26px;
+  height: 28px;
+}
+.customer-icon-c {
+  width: 18px;
+  height: 20px;
+}
+
+.foster-peters {
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
