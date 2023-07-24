@@ -70,8 +70,11 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  text-align: center;
-  background-color: aquamarine;
+  display: flex;
+  background-color: var(--iris, #4d5ae5);
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 .page-header {
@@ -147,6 +150,8 @@ img {
 
 .bg-hero {
   background-color: var(--navyblue);
+  /* background-image: url(../images/bg-people-office\ .png);
+  background-size: cover; */
 }
 
 .button {
@@ -159,6 +164,7 @@ img {
   cursor: pointer;
   font-size: 16px;
 }
+
 .button.primary {
   color: white;
   background-color: var(--iris);
@@ -391,7 +397,40 @@ img {
 
 .customers.list {
   display: flex;
+  flex-basis: calc(100% / 6 - 30px);
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 24px;
+}
+
+.customer-item {
+  display: flex;
+  width: 168px;
+  height: 88px;
+  justify-content: center;
+  align-items: center;
+  padding: 16 32;
+  border: 1px solid black;
+}
+
+.contact-footer {
+  color: var(--white);
+}
+
+.icons {
+  width: 24px;
+  height: 24px;
+}
+.icon-team {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-fill {
+  fill: var(--white);
+}
+
+.customer-icon {
+  width: 104px;
+  height: 56px;
 }
