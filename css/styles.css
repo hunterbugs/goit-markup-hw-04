@@ -6,6 +6,8 @@
   --ocean: #404bbf;
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
+  --green: #31d0aa;
+  --gray: #8e8f99;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -227,6 +229,7 @@ img {
 .contacts-menu {
   display: flex;
   align-items: center;
+  gap: 15px;
 }
 
 .benefits {
@@ -392,7 +395,6 @@ img {
   text-align: center;
   justify-content: center;
   align-items: center;
-  border: 2px solid #2e2f42;
 }
 
 .customers.list {
@@ -410,7 +412,13 @@ img {
   justify-content: center;
   align-items: center;
   padding: 16 32;
-  border: 1px solid black;
+  border: 1px solid var(--gray);
+}
+
+.customer-item:hover,
+.customer-fill:hover {
+  border: 1px solid var(--ocean);
+  fill: var(--ocean);
 }
 
 .customer-item-a {
@@ -436,6 +444,9 @@ img {
 .icon-fill {
   fill: var(--white);
 }
+.items:hover {
+  background-color: var(--green);
+}
 
 .customer-icon {
   width: 104px;
@@ -460,4 +471,7 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.customer-fill {
+  fill: var(--gray);
 }
