@@ -482,30 +482,30 @@ img {
   background-color: var(--green);
 }
 
-.customer-icon {
-  width: 104px;
-  height: 56px;
-}
-
-.customer-icon-a {
-  width: 10px;
-  height: 10px;
-}
-.customer-icon-b {
-  width: 26px;
-  height: 28px;
-}
-.customer-icon-c {
-  width: 18px;
-  height: 20px;
-}
-
-.foster-peters {
-  font-size: 6px;
+.footer-heading {
+  color: var(--white, #fff);
+  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
-.customer-fill {
-  fill: var(--gray);
+
+.footer-address {
+  width: 448px;
+}
+
+.icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris);
+  padding: 0;
+}
+
+.icon-item .icon {
+  fill: var(--white);
 }
