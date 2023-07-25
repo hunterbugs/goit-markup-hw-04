@@ -266,6 +266,8 @@ img {
 .benefits .item .icon {
   width: 264px;
   height: 112px;
+  background-color: var(--cloud);
+  margin-bottom: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
