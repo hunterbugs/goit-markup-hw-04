@@ -231,13 +231,15 @@ img {
 .partners.list {
   display: flex;
   justify-content: space-evenly;
-  border-color: 1px solid black;
 }
 
 .partners.list > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 168px;
   height: 88px;
-  border-color: 1px solid black;
+  border: 1px solid var(--gray);
 }
 
 .menu,
@@ -260,6 +262,13 @@ img {
   flex-basis: calc(100% 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+}
+.benefits .item .icon {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .what-we-do {
