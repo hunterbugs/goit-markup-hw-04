@@ -509,3 +509,11 @@ img {
 .icon-item .icon {
   fill: var(--white);
 }
+
+.icon-item:hover {
+  background-color: var(--green);
+}
+
+.icon-item .icon:hover {
+  fill: var(--cloud);
+}
