@@ -88,6 +88,11 @@ img {
   background-color: var(--navyblue);
 }
 
+.page-footer .footer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-size: 0;
