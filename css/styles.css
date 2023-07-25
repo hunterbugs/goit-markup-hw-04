@@ -44,7 +44,7 @@ img {
 
 .link {
   text-decoration: none;
-  color: inherit;
+  /* color: inherit; */
 }
 
 .list {
@@ -85,6 +85,7 @@ img {
 
 .page-footer {
   padding: 60px 0;
+  background-color: var(--navyblue);
 }
 
 .logo-link {
@@ -200,7 +201,10 @@ img {
 .hero {
   padding: 200px 0;
   text-align: center;
+
+  background-color: var(--navyblue);
 }
+
 .hero-title {
   color: var(--white);
   text-align: center;
@@ -223,6 +227,19 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.partners.list {
+  display: flex;
+  justify-content: space-evenly;
+  border-color: 1px solid black;
+}
+
+.partners.list > li {
+  width: 168px;
+  height: 88px;
+  border-color: 1px solid black;
+}
+
 .menu,
 .navigation,
 .nav-menu,
