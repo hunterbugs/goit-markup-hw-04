@@ -580,8 +580,10 @@ img {
   border-width: 1px;
   border-color: var(--slate);
 }
-.partners .item .link .icon:hover,
 .partners.list .item .link:hover {
   border-color: var(--ocean);
+}
+
+.partners .item .link .icon:hover {
   fill: var(--ocean);
 }
