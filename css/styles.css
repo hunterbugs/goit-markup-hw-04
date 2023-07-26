@@ -477,43 +477,6 @@ img {
   gap: 200px;
 }
 
-.section.customers {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.customers.list {
-  display: flex;
-  flex-basis: calc(100% / 6 - 30px);
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-}
-
-.customer-item {
-  display: flex;
-  width: 168px;
-  height: 88px;
-  justify-content: center;
-  align-items: center;
-  padding: 16 32;
-  border: 1px solid var(--gray);
-}
-
-.customer-item:hover,
-.customer-fill:hover {
-  border: 1px solid var(--ocean);
-  fill: var(--ocean);
-}
-
-.customer-item-a {
-  display: flex;
-  width: 168px;
-  height: 88px;
-  border: 1px solid black;
-}
-
 .contact-footer {
   color: var(--white);
 }
