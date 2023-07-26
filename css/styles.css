@@ -517,3 +517,18 @@ img {
 .icon-item .icon:hover {
   fill: var(--cloud);
 }
+
+.partners .item .icon {
+  fill: var(--slate);
+}
+
+.partners .item .icon:hover {
+  fill: var(--ocean);
+}
+
+.partners.list .item {
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
