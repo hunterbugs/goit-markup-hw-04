@@ -56,10 +56,52 @@ img {
 .social-team {
   display: flex;
   list-style: none;
-  align-items: center;
   justify-content: center;
   gap: 24px;
-  padding-top: 8px;
+  padding-top: 10px;
+}
+
+.social-team .icon-item {
+  border-radius: 50%;
+}
+
+.social-footer .icon-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.social-footer .icon-item .link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--cloud);
+  background-color: var(--iris);
+}
+
+.social-footer .link:hover {
+  color: var(--cloud);
+  background-color: var(--green);
+}
+
+.social-team .link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--cloud);
+  background-color: var(--iris);
+}
+
+.social-team .link:hover {
+  color: var(--cloud);
+  background-color: var(--green);
+  border-radius: 50%;
 }
 
 .social-footer {
@@ -156,10 +198,20 @@ img {
   letter-spacing: 0.02em;
 }
 
-.bg-hero {
+.hero {
+  padding: 200px 0;
+  text-align: center;
+  height: 600px;
   background-color: var(--navyblue);
-  /* background-image: url(../images/bg-people-office\ .png);
-  background-size: cover; */
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.78),
+      rgba(46, 47, 66, 0.78)
+    ),
+    url(../images/bg-people-office.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .button {
@@ -496,18 +548,14 @@ img {
 }
 
 .icon-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  background-color: var(--iris);
-  padding: 0;
 }
 
 .icon-item .icon {
-  fill: var(--white);
+  fill: currentColor;
+  width: 16px;
+  height: 16px;
 }
 
 .icon-item:hover {
@@ -522,13 +570,18 @@ img {
   fill: var(--slate);
 }
 
-.partners .item .icon:hover {
-  fill: var(--ocean);
-}
-
-.partners.list .item {
-  background-color: red;
+.partners.list .item .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
   border-style: solid;
-  border-color: black;
   border-width: 1px;
+  border-color: var(--slate);
+}
+.partners .item .link .icon:hover,
+.partners.list .item .link:hover {
+  border-color: var(--ocean);
+  fill: var(--ocean);
 }
