@@ -549,6 +549,11 @@ img {
 }
 
 .partners.list .item .icon {
+  fill: currentColor;
+  /* fill: var(--gray);*/
+}
+
+.icon.link {
   width: 100%;
   height: 100%;
   border: 1px solid var(--gray);
@@ -559,8 +564,8 @@ img {
   color: #8e8f99;
 }
 
-.partners.list .item .icon:hover,
-.partners.list .item .icon:focus {
+.icon.link:hover,
+.icon.link:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
