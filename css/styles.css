@@ -494,10 +494,6 @@ img {
   color: var(--white);
 }
 
-.icons {
-  width: 24px;
-  height: 24px;
-}
 .icon-team {
   width: 16px;
   height: 16px;
@@ -552,22 +548,19 @@ img {
   fill: var(--gray);
 }
 
-.partners.list .item .link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.partners.list .item .icon {
   width: 100%;
   height: 100%;
   border: 1px solid var(--gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
-}
-.partners.list .item .link:hover,
-.partners.list .item .link .icon:hover {
-  border-color: var(--ocean);
-  fill: var(--ocean);
+  color: #8e8f99;
 }
 
-.partners.list .item {
-  display: flex;
-  padding: 32 16 32 16;
+.partners.list .item .icon:hover,
+.partners.list .item .icon:focus {
+  border-color: #404bbf;
+  color: #404bbf;
 }
